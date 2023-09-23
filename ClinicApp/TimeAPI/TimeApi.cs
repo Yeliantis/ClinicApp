@@ -11,7 +11,7 @@ namespace ClinicApp.TimeAPI
     /// Класс для соединения с World Time API 
     /// </summary>
    
-    static public class TimeApi
+    public static class TimeApi
     {
         private static readonly string connection = "http://worldtimeapi.org/api";
 
